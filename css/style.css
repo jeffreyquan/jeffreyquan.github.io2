@@ -2198,19 +2198,6 @@ input.searchbox:focus {
 .buttons-holder > a {
   margin: 5px; }
 
-#particles-js {
-  width: 100vw;
-  height: 100vh;
-  position: absolute; }
-
-.particle_overlay {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-color: rgba(7, 10, 50, 0.2); }
-
 /*-------------------------------------------------------*/
 /* Home Text Rotator
 /*-------------------------------------------------------*/
