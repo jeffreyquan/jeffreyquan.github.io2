@@ -939,6 +939,8 @@ p {
   display: inline-block; }
 
 .intro-text {
+  text-align: left;
+  color: black;
   font-size: 17px;
   line-height: 32px; }
 
@@ -1358,19 +1360,19 @@ p {
 
 .socials a {
   display: inline-block;
-  width: 37px;
-  height: 37px;
+  width: 50px;
+  height: 50px;
   background-color: transparent; }
   .socials a:hover i {
     color: #fff;
     background-color: #00aeef; }
 
 .socials i {
-  line-height: 37px;
+  line-height: 50px;
   color: #616161;
   font-size: 14px;
-  width: 37px;
-  height: 37px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   text-align: center;
   -webkit-transition: all 0.2s linear;
@@ -2157,6 +2159,7 @@ input.searchbox:focus {
 /*-------------------------------------------------------*/
 .hero-wrap {
   width: 100%;
+  height: 90vh;
   display: block;
   position: relative;
   overflow: hidden;
@@ -2167,6 +2170,9 @@ input.searchbox:focus {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat; }
+  @media (max-width: 991px) {
+    .hero-wrap {
+      height: 100vh; } }
 
 .hero-holder {
   display: table;
@@ -2413,7 +2419,8 @@ input.searchbox:focus {
 
 .works-grid.titles .work-description a,
 #owl-related-works .work-description a {
-  color: #111; }
+  color: #111;
+  font-size: 16px; }
   .works-grid.titles .work-description a:hover,
   #owl-related-works .work-description a:hover {
     color: #00aeef; }
@@ -2731,6 +2738,11 @@ h5.intro {
 
 .about-me .info {
   padding-left: 7%; }
+
+.dev-icons > svg {
+  margin: 20px 20px 0 0;
+  max-width: 120px;
+  max-height: 70px; }
 
 /*-------------------------------------------------------*/
 /* Youtube Video bg
@@ -3229,9 +3241,21 @@ label {
 /*-------------------------------------------------------*/
 /* Footer
 /*-------------------------------------------------------*/
+@media (max-width: 991px) {
+  .footer {
+    background-color: rgba(17, 17, 17, 0.9);
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    left: 0;
+    bottom: 0; } }
+
 .footer.minimal {
   padding: 120px 0;
   text-align: center; }
+  @media (max-width: 991px) {
+    .footer.minimal {
+      padding: 20px 0 20px 0; } }
 
 .footer.minimal .copyright {
   display: block;
@@ -3244,22 +3268,30 @@ label {
 .footer.minimal .copyright a {
   color: #909090; }
 
+@media (max-width: 991px) {
+  .footer-logo {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .socials {
+    margin-bottom: 10px; } }
+
 .socials.footer-socials a {
-  margin: 0 2px; }
+  margin: 0 10px; }
   .socials.footer-socials a:hover i {
     color: #fff;
     background-color: #00aeef; }
 
 .socials.footer-socials i {
-  width: 37px;
-  height: 37px;
+  width: 50px;
+  height: 50px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background-color: #1b1b1b;
   color: #dbdbdb;
-  line-height: 37px;
+  line-height: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
