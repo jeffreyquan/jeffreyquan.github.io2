@@ -70,9 +70,13 @@ iframe {border: 0;}
   line-height: 32px;
   z-index: 50 !important;
   position: absolute;
-  bottom: 90px;
+  bottom: 140px;
   left: 50%;
   margin-left: -16px;
+
+  @media (max-width: 991px) {
+    bottom: 90px;
+  }
 }
 
 .scroll-down a {
