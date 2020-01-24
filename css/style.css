@@ -34,6 +34,9 @@
 
 .section-wrap-mp {
   padding: 100px 0; }
+  @media (max-width: 991px) {
+    .section-wrap-mp {
+      padding: 60px 0; } }
 
 .color-white {
   color: #fff !important; }
