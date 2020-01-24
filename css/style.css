@@ -2467,6 +2467,39 @@ a.underline:hover:before {
 h5.intro {
   margin-top: 10px; }
 
+.dev-labels {
+  padding-top: 10px; }
+  .dev-labels > span {
+    color: black;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 1px 2px;
+    border-radius: 3px; }
+  .dev-labels-react {
+    background-color: #E8F8F5; }
+  .dev-labels-ruby {
+    background-color: #FDEDEC; }
+  .dev-labels-mongodb {
+    background-color: #FBEEE6; }
+  .dev-labels-express {
+    background-color: #FEF9E7; }
+  .dev-labels-postresql {
+    background-color: #F4ECF7; }
+  .dev-labels-javascript {
+    background-color: #FEF5E7; }
+  .dev-labels-socket {
+    background-color: #EAFAF1; }
+  .dev-labels-bootstrap {
+    background-color: #EBF5FB; }
+  .dev-labels-scss {
+    background-color: #EAECEE; }
+  .dev-labels-jquery {
+    background-color: #EBEDEF; }
+  .dev-labels-html {
+    background-color: #E8F6F3; }
+  .dev-labels-css {
+    background-color: #EAF2F8; }
+
 /* Call to Action Style-2
 -------------------------------------------------------*/
 .call-to-action.style-2 {
