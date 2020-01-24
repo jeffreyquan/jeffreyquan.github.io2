@@ -73,8 +73,10 @@ iframe {border: 0;}
   bottom: 140px;
   left: 50%;
   margin-left: -16px;
+}
 
-  @media (max-width: 991px) {
+@media (max-width: 991px) {
+  .scroll-down {
     bottom: 90px;
   }
 }
