@@ -2441,6 +2441,9 @@ input.searchbox:focus {
   transform: translate(-50%, -50%);
   text-align: center; }
 
+.modal-body p, .modal-body li {
+  color: black; }
+
 a.underline {
   position: relative;
   font-weight: bold; }
