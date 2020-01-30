@@ -2496,6 +2496,14 @@ h5.intro {
     border-radius: 3px; }
   .dev-labels-react {
     background-color: #E8F8F5; }
+  .dev-labels-vue {
+    background-color: #F0FFF0; }
+  .dev-labels-vuex {
+    background-color: #FAEBD7; }
+  .dev-labels-feathers {
+    background-color: #F8F8FF; }
+  .dev-labels-vuetify {
+    background-color: #F0F8FF; }
   .dev-labels-ruby {
     background-color: #FDEDEC; }
   .dev-labels-mongodb {
