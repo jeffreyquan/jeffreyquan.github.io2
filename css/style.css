@@ -1031,7 +1031,7 @@ p {
     height: 100%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    content: '';
+    content: "";
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box; }
@@ -1107,7 +1107,7 @@ p {
   .promo-section .customNavigation > a:hover, .promo-section .customNavigation > a:hover,
   .from-blog .customNavigation > a:hover,
   .from-blog .customNavigation > a:hover {
-    opacity: .8; }
+    opacity: 0.8; }
 
 /* Portfolio
 -------------------------------------------------------*/
@@ -1671,7 +1671,7 @@ p {
   background-color: #f44336; }
 
 #contact-form .message.success {
-  background-color: #4CAF50; }
+  background-color: #4caf50; }
 
 /* Owl Carousel
 -------------------------------------------------------*/
@@ -1685,7 +1685,8 @@ p {
 .owl-buttons {
   position: static; }
 
-.owl-prev, .owl-next {
+.owl-prev,
+.owl-next {
   display: block;
   position: absolute;
   top: 50%;
@@ -1702,7 +1703,8 @@ p {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
-  .owl-prev:hover i, .owl-next:hover i {
+  .owl-prev:hover i,
+  .owl-next:hover i {
     color: #00aeef; }
 
 .owl-prev {
@@ -1809,7 +1811,7 @@ p {
   position: relative; }
 
 .blog-content .entry-img a:hover img {
-  opacity: .8; }
+  opacity: 0.8; }
 
 .blog-content .entry-img,
 .blog-content .entry-slider,
@@ -2457,7 +2459,8 @@ input.searchbox:focus {
   transform: translate(-50%, -50%);
   text-align: center; }
 
-.modal-body p, .modal-body li {
+.modal-body p,
+.modal-body li {
   color: black; }
 
 a.underline {
@@ -2495,37 +2498,45 @@ h5.intro {
     padding: 1px 2px;
     border-radius: 3px; }
   .dev-labels-react {
-    background-color: #E8F8F5; }
+    background-color: #e8f8f5; }
+  .dev-labels-next {
+    background-color: #faebd7; }
+  .dev-labels-graphql {
+    background-color: #eaf2f8; }
+  .dev-labels-apollo-client {
+    background-color: #f4ecf7; }
+  .dev-labels-apollo-server {
+    background-color: #eafaf1; }
   .dev-labels-vue {
-    background-color: #F0FFF0; }
+    background-color: #f0fff0; }
   .dev-labels-vuex {
-    background-color: #FAEBD7; }
+    background-color: #faebd7; }
   .dev-labels-feathers {
-    background-color: #F8F8FF; }
+    background-color: #f8f8ff; }
   .dev-labels-vuetify {
-    background-color: #F0F8FF; }
+    background-color: #f0f8ff; }
   .dev-labels-ruby {
-    background-color: #FDEDEC; }
+    background-color: #fdedec; }
   .dev-labels-mongodb {
-    background-color: #FBEEE6; }
+    background-color: #fbeee6; }
   .dev-labels-express {
-    background-color: #FEF9E7; }
+    background-color: #fef9e7; }
   .dev-labels-postresql {
-    background-color: #F4ECF7; }
+    background-color: #f4ecf7; }
   .dev-labels-javascript {
-    background-color: #FEF5E7; }
+    background-color: #fef5e7; }
   .dev-labels-socket {
-    background-color: #EAFAF1; }
+    background-color: #eafaf1; }
   .dev-labels-bootstrap {
-    background-color: #EBF5FB; }
+    background-color: #ebf5fb; }
   .dev-labels-scss {
-    background-color: #EAECEE; }
+    background-color: #eaecee; }
   .dev-labels-jquery {
-    background-color: #EBEDEF; }
+    background-color: #ebedef; }
   .dev-labels-html {
-    background-color: #E8F6F3; }
+    background-color: #e8f6f3; }
   .dev-labels-css {
-    background-color: #EAF2F8; }
+    background-color: #eaf2f8; }
 
 /* Call to Action Style-2
 -------------------------------------------------------*/
